@@ -1,0 +1,98 @@
+@media screen and (max-width: 900px) {
+
+    .header,
+    .site_content,
+    .footer,
+    .container {
+        width: auto;
+        min-width: auto;
+    }
+
+    .logo,
+    .menubar {
+        width: auto;
+    }
+
+    .container, 
+    .content {
+        width: calc(100% - 264px);
+    }
+
+    .content iframe{
+        max-width: 100%;
+    }
+
+    .photo{
+        width: 50%;
+    }
+    .gallery-photo {
+        width: calc( 100% / 2);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header {
+        height: auto;
+        background-size: cover;
+    }
+
+    .menubar {
+        height: auto;
+        text-align: center;
+    }
+
+    .logo_text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    ul.menu {
+        float: none;
+    }
+
+    ul.menu li {
+        float: none;
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        float: none;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .sitebar_container {
+        width: 100%;
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+    }
+
+    .sitebar {
+        width: calc(100% / 2 - 10px);
+        box-sizing: border-box;
+    }
+
+    .sitebar:last-child {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .sitebar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .photo{
+        float: none;
+        width: 100%;
+        min-width: 100%;
+    }
+}

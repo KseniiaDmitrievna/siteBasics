@@ -1,0 +1,327 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+		font-size: 1.2em;
+		background-color: #fff;
+		color: #555;
+}
+p {
+       padding: 0 0 20px 0;
+       line-height: 1.7em;
+}
+
+hr {
+	border: double 4px #f3f3f3;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="email"] {
+	color: #C0C0C0;
+	width: 60%;
+	padding: 5px;
+}
+input, textarea{
+	outline: none;
+	border: none;
+	border: solid 1px;
+}
+h1,h2 {
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 5px;
+	padding: 15px 0 5px 0;
+	color: #696969;
+}
+a,a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #000000;
+}
+
+.header {
+
+	background-image: url(../img/brick_texture3419.jpg) ;
+	height: 177px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo{
+	width: 880px;
+	padding-bottom: 40px;
+}
+.logo h1{
+	font: extra-condensed;
+	font-size: 50px;
+	margin: 0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a,.logo_text h1 a:hover {
+padding: 30px 0 0 0;
+color: #000000;
+text-decoration: none;
+letter-spacing: 0.1em;
+}
+.menubar{
+	width: 900px;
+	height: 46px;
+}
+ul.menu{
+float: right;
+}
+ul.menu li {
+	float: left;
+	padding: 0 0 0 0px;
+	list-style: none;
+	margin: 1px 0 0 0;
+}
+ul.menu li a {
+	font:Georgia;
+	display: block;
+	height: 40px;
+	padding: 3px 15px 0 15px;
+	color: #ca2626;
+	text-decoration: none;
+	font-size: 22px;
+}
+ul.menu li.selected a {
+	color: #8B4513;
+}
+ul.menu li a:hover {
+	color: #808080;
+}
+.site_content {
+	width: 880px;
+	overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+
+.sitebar_container {
+	float: right;
+	width: 224px;
+}
+.sitebar {
+	float: right;
+	width: 220px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solit 1px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.btn {
+	padding: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.lables_passreg_text {
+	font-size: 0.8em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+.content a {
+	text-decoration: none;
+}
+.text-blok {
+	margin: 0 0 16px 0;
+	padding: 15px 10px 15px 20px;
+	border: solit 1px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.text-blok img {
+	float: right;
+	width: 100px;
+	height: 80px;
+}
+.info_film_page {
+	margin-top:2%;
+	margin-bottom:4%; 
+}
+
+.label{
+	font-size: 1.2em;
+}
+.value{
+	font-size: 1em;
+	color:#D8BFD8;
+	margin-right: 3%;
+}
+
+.description_film{
+	margin-bottom: 15%;
+}
+.description_film img{
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 3px #C0C0C0;
+	width: 160px;
+	height: 190px;
+}
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+.review_name {
+	background-color: #696969;
+	color: #D8BFD8;
+	padding: 1%;
+	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.review_text {
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.send{
+	margin-bottom: 4%;
+}
+.send input [type="text"], textarea {
+	border: solid 1px #D8BFD8;
+	margin-bottom: 2%;
+}
+.send input [type="text"]{
+	width: 98%;
+}
+.send textarea{
+	width: 100%;
+	height: 240px
+}
+	.send input[type="submit"] {
+		background-color: #696969;
+		color: #D8BFD8;
+		padding: 3%;
+		border-radius: 5px;
+	}
+
+	.send input[ type = "reset"] {
+		background-color: #696969;
+		color: #D8BFD8;
+		padding: 3%;
+		border-radius: 5px;
+	}
+
+.info_film {
+	margin-bottom: 5%;
+	background-color: #f9f9f9;
+	padding: 5%;
+	border-radius: 5px;
+}
+.info_film:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+	.info_film .photo  img {
+		width: 100%;
+		height: auto;
+	}
+.photo {
+	float: left;
+	width: calc( 100% / 3 );
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+	.photo img {
+		display: block;
+		width: 270px;
+		height: 190px;
+	}
+
+.gallery {
+	margin-bottom: 50px;
+}
+
+	.gallery:after {
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+	}
+.gallery-photo {
+	float: left;
+	width: calc( 100% / 3 );
+	height: 200px;
+}
+.gallery-photo img {
+	width: 100%;
+    height: 100%;
+	object-fit: cover;
+}
+.gallery-photo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.gallery-photo a :hover {
+	opacity: 0.5; /*задание прозрачности от 0 до 1*/
+}
+
+
+.botton{
+	background-color:#DCDCDC;
+	padding: 2%;
+	color: write;
+	border-radius: 5px;
+	float: right;
+	margin-top: 5%;
+	clear: both;
+	font-size: 0.8em;
+}
+
+.botton a{
+	color: write;
+}
+
+.logo_text img{
+	float: left;
+	margin-right: 10%;
+	margin-top: 1%;
+	border-radius: 10px;
+	
+	width: 150px;
+	height: 150px;
+}
+.footer {
+	background-image: url(../img/brick_texture3419.jpg);
+	height: 135px;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 28px 0 5px 0;
+	min-width: 900px;
+}
+.footer p {
+	padding: 30px 0 20px 0;
+}
+
+.it {
+	font-size: 20px;
+	color: #696969;
+	border: #696969 1px solid;
+	padding: 5px;
+	margin: 5px;
+	width: calc( 100% - 20px );
+}
+
+/* CSS Mobile */
+@ media only screen and (min-device-width : 320px) and (max-device-width : 568px) @media screen and (max-width: 1000px) {
+	.come_class {width: 100px;
+	}
+}
